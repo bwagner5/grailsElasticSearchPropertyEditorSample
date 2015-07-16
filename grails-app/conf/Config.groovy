@@ -116,6 +116,7 @@ log4j.main = {
            'net.sf.ehcache.hibernate'
 }
 
+grails.databinding.dateFormats = ['MM/dd/yyyy HH:mm', 'yyyy-MM-dd HH:mm:ss:S', 'yyyy-MM-dd HH:mm:ssd']
 elasticSearch.datastoreImpl = 'hibernateDatastore'
 elasticSearch.bulkIndexOnStartup = false
 elasticSearch.disableAutoIndex = false
