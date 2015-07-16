@@ -115,3 +115,9 @@ log4j.main = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+elasticSearch.datastoreImpl = 'hibernateDatastore'
+elasticSearch.bulkIndexOnStartup = false
+elasticSearch.disableAutoIndex = false
+elasticSearch.client.mode = 'local'
+elasticSearch.index.store.type = 'memory' // store local node in memory and not on disk
