@@ -1,4 +1,4 @@
-
+package test
 
 import org.apache.commons.lang.time.DateUtils
 import org.springframework.beans.PropertyEditorRegistrar
